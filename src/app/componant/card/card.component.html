@@ -1,0 +1,54 @@
+
+
+
+<div class="BagroundImage" *ngIf="AllProdyct.length!=0">
+    <div class="container">
+        <div class="row">
+            <ng-container *ngFor="let item of AllProdyct">
+                <div class="card col-md-3">
+                    <img src="{{item.image}}">
+
+                    <h5 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100ch;">{{item.title}}</h5>
+                    <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100ch;">{{item.description}}</p>
+                    <p><strong>Price</strong>${{item.Price}}</p>
+                    <button class="btn btn-primary" (click)="Palce()">Place Order</button>
+                    <button (click)="deleData(item.id)" class="btn btn-danger"><i class="fas fa-trash-alt">delete</i></button>
+         </div>
+         </ng-container>
+    
+        </div>
+    </div>
+    </div>
+    
+    <ng-container>
+        <div class="container" *ngIf="AllProdyct.length==0">
+            <div class="card">
+                <h5 class="card-title">My Cart</h5>
+        </div>
+        <div class="center">
+            <img src="https://rukminim1.flixcart.com/www/800/800/promos/16/05/2019/d438a32e-765a-4d8b-b4a6-520b560971e8.png?q=90" alt="">
+            <h4>Your cart is empty!</h4>
+            <h6>Add item to now</h6>
+            <button class="btn btn-primary">Shop Now</button>
+        
+        </div>
+        
+        </div>
+        </ng-container>
+
+
+
+
+<!-- <div class="container">
+
+    <div class="card">
+        <div class="center"> 
+        <h5 class="card-title">My-Card</h5>
+
+        <img src="https://rukminim1.flixcart.com/www/800/800/promos/16/05/2019/d438a32e-765a-4d8b-b4a6-520b560971e8.png?q=90"  alt="">
+        <h5>Card is Empty!!</h5>
+    </div>
+    </div>
+</div> -->
+
+

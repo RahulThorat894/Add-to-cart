@@ -1,0 +1,23 @@
+.BagroundImage
+{
+    background-image: url("https://thumbs.dreamstime.com/z/flipkart-e-commerce-company-headquartered-bangalore-karnataka-india-registered-singapore-initially-focused-205685030.jpg");
+}
+.card
+{
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 10px 10px 15px black;
+    border-radius: 10px;
+}
+.card img
+{
+    width: 100px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+    }
+.card img:hover
+{
+    transition: 03s ease-in-out;
+    transform: scale(1.1);
+}

@@ -1,0 +1,53 @@
+.Bag
+{
+  background-image: url("https://d8it4huxumps7.cloudfront.net/bites/wp-content/uploads/2018/07/online-shopping-e-commerce-concept-background-various-icons-58651687-1.png?d=700x400");
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.example-spacer {
+    flex: 1 1 auto;
+   
+   
+  }
+/* .bagnav
+  {
+    
+      
+  }  */
+  span
+  {
+    margin-left: 12px;
+    color: beige;
+   
+    
+  }
+  button
+  {
+    padding: 10px;
+  }
+  .item img
+  {
+      width: 64px;
+  
+  }
+  .item
+  {
+      margin: 0px 15px;
+      text-align: center;
+      
+  }
+  .item a:hover
+  {
+      color: blue;
+  }
+
+  .manubuton
+  {
+    margin: 0px 15px;
+    text-align: center;
+    }
+    .manubuton button
+    {
+        border-radius: 10px;
+        box-shadow: 10px 10px 15px black;
+    }

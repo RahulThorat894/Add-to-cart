@@ -1,0 +1,19 @@
+<div class="bag">
+<div class="container">
+
+    <div class="row">
+        <ng-container *ngFor="let iteam of jewleryList">
+        <div class="card col-md-3 ">
+         <img src="{{iteam.image}}">
+         <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{iteam.title}}</h5>
+         <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{iteam.description}}</p>
+         <p><strong>Price</strong>${{iteam.Price}}</p>
+          <button class="btn btn-primary">Add To Cart</button>
+
+        </div>
+
+    </ng-container>
+    </div>
+
+</div>
+</div>
